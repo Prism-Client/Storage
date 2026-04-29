@@ -1,0 +1,78 @@
+{
+    "schemaVersion": 1,
+    "minecraftVersion": "1.8.9",
+    "displayName": "1.8.9",
+    "client": {
+        "enabled": true,
+        "includeReleaseDependencies": true
+    },
+    "java": {
+        "featureVersion": "21",
+        "releaseType": "ga",
+        "imageType": "jre",
+        "jvm": "hotspot",
+        "heapSize": "normal",
+        "vendor": "eclipse"
+    },
+    "modLoader": {
+        "type": "legacy-fabric",
+        "loaderVersion": "0.19.2"
+    },
+    "mods": [
+        {
+            "type": "modrinth",
+            "id": "radium",
+            "slug": "radium-mod",
+            "fileName": "radium-mod.jar"
+        },
+        {
+            "type": "modrinth",
+            "id": "sulfide",
+            "slug": "sulfide",
+            "fileName": "sulfide.jar"
+        },
+        {
+            "type": "modrinth",
+            "id": "osl",
+            "slug": "osl",
+            "fileName": "osl.jar"
+        },
+        {
+            "type": "modrinth",
+            "id": "legacy-lwjgl3",
+            "slug": "moehreag-legacy-lwjgl3",
+            "fileName": "moehreag-legacy-lwjgl3.jar"
+        }
+    ],
+    "libraryPatches": [
+        {
+            "action": "remove",
+            "pathIncludes": "org/apache/logging/log4j"
+        },
+        {
+            "action": "inject",
+            "path": "org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
+        },
+        {
+            "action": "inject",
+            "path": "org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
+        },
+        {
+            "action": "inject",
+            "path": "org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
+        },
+        {
+            "action": "inject",
+            "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar"
+        },
+        {
+            "action": "inject",
+            "path": "it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar"
+        },
+        {
+            "action": "inject",
+            "path": "net/ornithemc/log4j-patch/1.0.0/log4j-patch-1.0.0.jar",
+            "repository": "https://maven.ornithemc.net/releases"
+        }
+    ]
+}
