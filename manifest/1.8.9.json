@@ -33,6 +33,12 @@
         },
         {
             "type": "modrinth",
+            "id": "netfix",
+            "slug": "netfix",
+            "fileName": "netfix.jar"
+        },
+        {
+            "type": "modrinth",
             "id": "osl",
             "slug": "osl",
             "fileName": "osl.jar"
