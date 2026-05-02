@@ -20,22 +20,22 @@
     },
     "mods": [
         {
-            "type": "modrinth",
-            "id": "radium",
-            "slug": "radium-mod",
-            "fileName": "radium-mod.jar"
-        },
-        {
-            "type": "modrinth",
-            "id": "sulfide",
-            "slug": "sulfide",
-            "fileName": "sulfide.jar"
+            "type": "direct",
+            "id": "optifine",
+            "url": "http://meta.prismclient.net/files/OptiFine_1.8.9_HD_U_M6_pre2.jar",
+            "fileName": "OptiFine_1.8.9_HD_U_M6_pre2.jar"
         },
         {
             "type": "modrinth",
             "id": "osl",
             "slug": "osl",
             "fileName": "osl.jar"
+        },
+        {
+            "type": "modrinth",
+            "id": "legacy-optifabric",
+            "slug": "legacy-optifabric",
+            "fileName": "legacy-optifabric.jar"
         },
         {
             "type": "modrinth",
