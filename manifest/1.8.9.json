@@ -7,12 +7,12 @@
         "includeReleaseDependencies": true
     },
     "java": {
-        "featureVersion": "21",
-        "releaseType": "ga",
-        "imageType": "jre",
-        "jvm": "hotspot",
-        "heapSize": "normal",
-        "vendor": "eclipse"
+      "featureVersion": "25",
+      "releaseType": "ga",
+      "imageType": "jre",
+      "jvm": "hotspot",
+      "heapSize": "normal",
+      "vendor": "eclipse"
     },
     "modLoader": {
         "type": "legacy-fabric",
